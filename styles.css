@@ -1,6 +1,19 @@
+.container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-/* Your CSS Code here. */
-.fluid{
-	display: flex;
-	flex-wrap: wrap;
+.row {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 100%;
+}
+
+.row img {
+  max-width: 100%;
+  height: auto;
+  margin: 5px;
 }
